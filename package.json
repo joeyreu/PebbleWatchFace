@@ -1,0 +1,71 @@
+{
+    "author": "Pebble",
+    "dependencies": {},
+    "keywords": [],
+    "name": "tutorial-3-3",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Tutorial-3-3",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_CONDITIONS": 1,
+            "KEY_TEMPERATURE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/background2.png",
+                    "name": "IMAGE_BACKGROUND2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "FONT_PERFECT_DOS_38",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "1752d974-df83-455d-a2e9-2ef6ba6e79d1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
